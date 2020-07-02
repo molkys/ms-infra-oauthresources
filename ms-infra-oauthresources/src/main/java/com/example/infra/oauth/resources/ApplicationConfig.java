@@ -1,4 +1,4 @@
-package com.om.infra.oauth.resources;
+package com.example.infra.oauth.resources;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

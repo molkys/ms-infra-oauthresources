@@ -1,4 +1,4 @@
-package com.om.infra.oauth.resources;
+package com.example.infra.oauth.resources;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;

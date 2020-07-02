@@ -1,4 +1,4 @@
-package com.om.infra.oauth.resources.controller;
+package com.example.infra.oauth.resources.controller;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,6 +11,6 @@ public class ResourcesController {
 	// @PreAuthorize => Validates whether the user has the given role prior to execute the code
 	@PreAuthorize("hasRole('ROLE_USER')")
 	public String hello() {
-		return "hello";
+		return "This is the protected information by OAuth2: Hola en Español!!! Hello in English!!!";
 	}
 }
