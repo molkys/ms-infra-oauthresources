@@ -1,0 +1,8 @@
+security: 
+  oauth2:
+    resource:
+      #URL where the tokens can be translated to an Authentication object 
+      #from the Authentication Server
+      user-info-uri: http://localhost:8080/principal
+server:
+  port: 9090
